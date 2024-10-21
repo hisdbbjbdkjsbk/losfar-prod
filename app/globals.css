@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    box-sizing: border-box;
+  }
+
+  video {
+    clip-path: inset(2px 2px);
+  }
+}
